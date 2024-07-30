@@ -1,9 +1,9 @@
 name: sa_june_util_lego
 description: "lego is all you need"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/sa_june_util_lego
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -20,8 +20,8 @@ dependencies:
   flutter_screenutil: #@add
   bot_toast: #@add
   keyboard_attachable:
-  timezone: ^0.9.4
-  flutter_native_timezone_updated_gradle: ^2.0.3
+  timezone: #@add
+  flutter_native_timezone_updated_gradle: #@add
 
 dev_dependencies:
   flutter_test:
