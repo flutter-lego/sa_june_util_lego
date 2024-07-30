@@ -1,0 +1,40 @@
+name: sa_june_util_lego
+description: "lego is all you need"
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/lego
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: #@add
+  gap: #@add
+  june_flow_util: #@add
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  flutter_zoom_drawer: #@add
+  flutter_screenutil: #@add
+  bot_toast: #@add
+  keyboard_attachable:
+  timezone: ^0.9.4
+  flutter_native_timezone_updated_gradle: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  screenutil_lego: #@add
+  bot_toast_lego: #@add
+  widget_binding_lego: #@add
+
+flutter:
+  assets:
+    - assets/lego/sa_june_util_lego/
+  uses-material-design: true
+
+topics:
+  - lego
