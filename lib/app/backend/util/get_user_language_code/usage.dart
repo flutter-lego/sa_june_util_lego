@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-import '../../../main.dart';
+import '../../../../../main.dart';
 import '_.dart';
 
 String _noteName = "Note";
 
 T _button00 = T("00", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-  String timeZoneName = await getUserLocalTimeZone();
-  print(timeZoneName);
+  String languageCode = getUserLanguageCode();
+  print('Current Language Code: $languageCode');
 
   ////////////////////////////////////////
 });
