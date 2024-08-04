@@ -3,7 +3,7 @@ description: "lego is all you need"
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/sa_june_util_lego
 
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -22,6 +22,7 @@ dependencies:
   keyboard_attachable:
   timezone: #@add
   flutter_native_timezone_updated_gradle: #@add
+  geocoding: #@add
 
 dev_dependencies:
   flutter_test:
